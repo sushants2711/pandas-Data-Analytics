@@ -11,7 +11,7 @@ s = pd.Series(
 
 # print(s.unique()) # it will return the distinct value only that means those value that is unique and also add the None or null values
 
-# print(s.nunique()) # it will return all non unique values except None or null
+# print(s.nunique()) # Returns the number of unique values except None or null
 
 # print(s.sort_values())
 
